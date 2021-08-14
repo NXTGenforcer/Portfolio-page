@@ -5,15 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Graham Clayton</title>
+    <link rel="stylesheet" href="assets/reset.css">
     <link rel="stylesheet" href="assets/style.css">
 </head>
-
-<body>
-    <header class="header">
-        <div id="header_name"><h1 >Graham Clayton</h1></div>
-        <div id="spacer"></div>
+  
+<header class="top-header flex">
+        <div id="header_name"><h1>Graham Clayton</h1></div>
         <nav>
-            <ul class="links">
+            <ul>
                 <li>
                     <a href="#about_me">About me</a>
                 </li>
@@ -30,29 +29,91 @@
     </nav>
 </header>
 
+<body>
+  
 <div class="big_pic">
-<div class="cool_caption">Cool subtitle here!</div>
+    <div class="cool_caption">
+        <h2>Cool subtitle here!</h2>
+    </div>
 </div>
 <main class="container">
-    <div id="about_me" class="about_me">
-        About me
-        <section>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    <aside class="about-me-onside">
+        <h3 class="about-me">About me</h3>
+    </aside>
+    <div class="about_me_content">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
             <br>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nunc sed augue lacus viverra vitae congue eu. Adipiscing bibendum est ultricies integer quis auctor elit sed. Euismod lacinia at quis risus sed. Fusce ut placerat orci nulla. Nibh tellus molestie nunc non blandit massa enim nec. </p>
-        </section>
+            <br>
+            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </p>
     </div>
-        <div id="work" class="work">
-            Work
+    <aside class="work-onside">
+        <h3 class="work">Work</h3>
+    </aside>
+    <div class="work-cards">
+        <a href="#" class="card work-1">
             <section>
-                
+                <div class="card-text">
+                    <header class="card-header">My work 1</header>
+                    <p>Details</p>
+                </div>
             </section>
-        </div>   
-
+        </a>
+        <a href="#" class="card work-2">
+            <section>
+                <div class="card-text">
+                    <header class="card-header">My work 2</header>
+                    <p>Details</p>
+                </div>
+            </section>
+        </a>
+        <a href="#" class="card wokr-3">
+            <section>
+                <div class="card-text">
+                    <header class="card-header">My work 3</header>
+                    <p>Details</p>
+                </div>
+            </section>
+        </a>
+        <a href="#" class="card work-4">
+            <section>
+                <div class="card-text">
+                    <header class="card-header">My work 4</header>
+                    <p>Details</p>
+                </div>
+            </section>
+        </a>
+        <a href="#" class="card work-5">
+            <section>
+                <div class="card-text">
+                    <header class="card-header">My work 5</header>
+                    <p>Details</p>
+                </div>
+            </section>
+        </a>
+    </div>
 </main>
 
-</body>
 <footer>
-
+    <aside class="contact-navbar">
+        <h3 id="contact-me" class="contact-onside">Contact me</h3>
+    </aside>
+    <nav class="footer-navbar">
+        <ul>
+            <li class="footer-li">
+                <a href="#">555-555-5555</a>
+            </li>
+            <li class="footer-li">
+                <a href="#">yourname@internet.com</a>
+            </li>
+            <li class="footer-li">
+                <a href="#">Github</a>
+            </li>
+            <li class="footer-li">
+                <a href="#">Linkedin</a>
+            </li>
+        </ul>
+    </nav>
 </footer>
+</body>
 </html>
